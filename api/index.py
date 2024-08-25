@@ -7,9 +7,9 @@ load_dotenv()
 app = Flask(__name__)
 
 # Your personal information
-USER_ID = os.getenv("USER_ID", "your_name_ddmmyyyy")
-EMAIL = os.getenv("EMAIL", "your_email@college.edu")
-ROLL_NUMBER = os.getenv("ROLL_NUMBER", "YOUR_ROLL_NUMBER")
+USER_ID = os.getenv("USER_ID", "Pratik_Jodgudri_24112002")
+EMAIL = os.getenv("EMAIL", "pratik.jodgudri2021@vitstudent.ac.in")
+ROLL_NUMBER = os.getenv("ROLL_NUMBER", "21BCE3208")
 
 @app.route('/api/bfhl', methods=['POST'])
 def process_data():
